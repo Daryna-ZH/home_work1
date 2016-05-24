@@ -1,0 +1,36 @@
+body{
+	background: #ccc;
+	font-size: 18px;
+
+}
+
+.container{
+	width: 400px;
+	margin:0 auto;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+
+h1{
+	text-align: center;
+}
+
+.imgWrap{
+	width:300px;
+	margin: 0 auto 30px;
+}
+
+.imgWrap img{
+	width:100%;
+}
+
+.box{
+	border-bottom: 1px solid #000;
+	margin-bottom: 30px;
+	padding:0 20px;
+}
+
+.box last-child{
+	border: 0;
+}
