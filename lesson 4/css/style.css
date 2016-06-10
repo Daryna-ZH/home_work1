@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;
+}
+
+.conteiner{
+	width: 1000px;
+	height: 880px;
+	margin: 0 auto;
+	border: 1px solid #6D6D6D;
+	padding: 40px;
+}
+
+.body{
+	font-family: monospace;
+    width: 100%;
+}
+
+.menu ul{
+	padding: 10px 0;
+	background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d7e7d 9%, #7d7e7d 16%, #383838 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7d7e7d 9%,#7d7e7d 16%,#383838 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7d7e7d 9%,#7d7e7d 16%,#383838 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#383838',GradientType=0 ); /* IE6-9 */;
+}
+
+.menu a{
+padding: 6px;
+margin: 20px;
+color: white;
+text-decoration: none;
+}
+
+.menu li{
+	display: inline;
+}
+
+
+.
+

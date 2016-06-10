@@ -3,19 +3,18 @@ box-sizing: border-box;
 }
 .container{
 	width: 1000px;
-	height: 880px;
 	margin: 0 auto;
 	border: 1px solid #6D6D6D;
-	padding: 40px;
+	padding: 45px 40px;
 }
 
 .imgWrap{
-	margin: 20px 0 0 0;
+	
 }
 
 body {
     font-family: monospace;
-    width: 100%;
+
 }
 
 ul{
@@ -40,19 +39,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 }
 
 .menu a{
-padding: 6px;
-margin: 30px;
+margin: 25px;
 color: white;
+padding: 11px 20px;
 }
 
 .menu a:hover{
 	background-color: grey;
-	padding: 8px 40px;
 }
 
 .menu li{
 	display: inline;
 } 
+
+.box:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
 
 .left_menu {
 	float: left;
@@ -88,6 +95,7 @@ color: white;
 .text{
 	padding: 10px 20px;
 }
+
 
 .footer div{
 	
