@@ -2,39 +2,151 @@
 box-sizing: border-box;
 }
 
-.conteiner{
+body{
+	background:url(../img/font.jpg) no-repeat;
+	background-size: 100%;
+	font: 14px 'Verdana', sans-serif;
+}
+
+ul { 
+margin: 0; 
+padding: 0; 
+list-style: none;  
+}
+
+
+.conteiner {
 	width: 1000px;
-	height: 880px;
 	margin: 0 auto;
-	border: 1px solid #6D6D6D;
-	padding: 40px;
+	background: white;
+	box-shadow: 0 10px 20px #000;
+
 }
 
-.body{
-	font-family: monospace;
-    width: 100%;
+.header {
+	padding: 35px 40px 0;
+	background: white;
 }
 
-.menu ul{
-	padding: 10px 0;
-	background: #7d7e7d; /* Old browsers */
-background: -moz-linear-gradient(top,  #7d7e7d 9%, #7d7e7d 16%, #383838 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #7d7e7d 9%,#7d7e7d 16%,#383838 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #7d7e7d 9%,#7d7e7d 16%,#383838 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#383838',GradientType=0 ); /* IE6-9 */;
+.wrapper {
+	float: right;
 }
 
-.menu a{
-padding: 6px;
-margin: 20px;
-color: white;
-text-decoration: none;
+.information {
+	margin-top: -30px;
+	padding-left: 200px;
+	color: blue;
+	font-size: 11px;
+}
+.contries {
+margin-top: 70px;
+}
+.contries li {
+	float: left;
 }
 
-.menu li{
-	display: inline;
+.contries li a {
+	background: no-repeat;
+background-position: center;
+	padding: 60px 7px 0;
+	text-decoration: underline;
+	color: blue;
+	font-size: 11px;
+}
+.contries .india a { 
+background-image: url(../img/india.png); 
+
+} 
+.contries .nepal a { 
+background-image: url(../img/nepal.png); 
+} 
+.contries .tibet a { 
+background-image: url(../img/tibet.png); 
+
+} 
+.contries .bhutan a { 
+background-image: url(../img/bhutan.png); 
+
+} 
+
+.contries .shri-lanka a { 
+background-image: url(../img/sri-lanka.png); 
+} 
+
+.contries .maldives a { 
+background-image: url(../img/maldives.png); 
+}
+.picture {
+	margin-top: -2px;
 }
 
+.menu {
+	background-color: #333333;
+	height: 35px;
+	padding-top: 7px;
+}
+.menu li  {
+	float: left;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
 
-.
+}
+.submenu li {
+	float: left;
+	height: 20px;
+	position: relative;
+	background: #333333;
 
+}
+ul li .submenu {
+	display: none;
+	position: absolute;
+	width: 130px;
+	background: #333333;
+	border: 1px solid black;
+}
+
+ul li .submenu li {
+	float: none;
+	display: block;
+	background: none;
+}
+ul li:hover .submenu {
+	display: block;
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+    font-family: 'Tahoma','Arial', sans-serif;
+        color: #343434;
+}
+
+.lcontent{
+	float: left;
+	width: 23%;
+	background: #eee;
+	padding: 0px 20px;
+	border-right: 1px solid #999;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.rcontent{
+	float: right;
+	width: 23%;
+	background: #eee;
+	padding: 0px 20px;
+	border-left: 1px solid #999;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.footer{
+	text-align: center;
+	color: #ccc;
+	margin-top: 10px;
+	font-family: 'Tahoma','Arial', sans-serif;
+	font-size: 14px;
+}
