@@ -1,0 +1,35 @@
+*{
+box-sizing: border-box;
+}
+body{
+	background: url(../img/fon.jpg) no-repeat;
+	background-size: cover;
+	font: 14px 'Verdana', sans-serif;
+
+}
+ul {
+	
+    margin: -8px -8px 0 -8px;
+    list-style: none;
+}
+
+.menu ul {
+	background-color: #074f8d;
+	height: 40px;
+
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+.conteiner {
+	background: black;
+	height: 600px;
+	width: 500px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	opacity: 0.5;
+}
+

@@ -38,13 +38,20 @@ list-style: none;
 	color: blue;
 	font-size: 11px;
 }
+
 .contries {
 margin-top: 70px;
 }
 .contries li {
 	float: left;
 }
-
+.contries:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
 .contries li a {
 	background: no-repeat;
 background-position: center;
@@ -76,45 +83,56 @@ background-image: url(../img/sri-lanka.png);
 .contries .maldives a { 
 background-image: url(../img/maldives.png); 
 }
+
+
 .picture {
 	margin-top: -2px;
 }
 
 .menu {
-	background-color: #333333;
-	height: 35px;
-	padding-top: 7px;
+	background-color: #333333; 
+height: 35px; 
 }
-.menu li  {
-	float: left;
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+.menu ul li {
+	display: inline-block;
+	background-color: #333333;
+	width: 138px;
+	text-align: center;
 }
 .menu a {
+	display: block;
+
 	color: white;
+	font-size: 14px;
+	line-height: 35px;
 	text-decoration: none;
+}
+.menu a:hover {
+	background-color: #333333;
 
 }
-.submenu li {
-	float: left;
-	height: 20px;
-	position: relative;
-	background: #333333;
-
-}
-ul li .submenu {
+.menu ul ul {
 	display: none;
 	position: absolute;
-	width: 130px;
-	background: #333333;
-	border: 1px solid black;
+	border-top: 1px solid black;
+	box-shadow: 0 0 10px #000;
+margin-left: -69px;
 }
-
-ul li .submenu li {
+.menu ul li:hover ul {
+display: inline-block;
+}
+.menu ul ul li {
+	width: 138px;
 	float: none;
 	display: block;
-	background: none;
-}
-ul li:hover .submenu {
-	display: block;
+	position: relative;
 }
 .content{
 	width: 100%;
