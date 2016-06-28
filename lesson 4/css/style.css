@@ -87,6 +87,7 @@ background-image: url(../img/maldives.png);
 
 .picture {
 	margin-top: -2px;
+	line-height: 0;
 }
 
 .menu {
@@ -141,6 +142,7 @@ display: inline-block;
         color: #343434;
 }
 
+
 .lcontent{
 	float: left;
 	width: 23%;
@@ -150,7 +152,10 @@ display: inline-block;
 	padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
-
+.center {
+	float: left;
+	width: 54%;
+}
 .rcontent{
 	float: right;
 	width: 23%;
