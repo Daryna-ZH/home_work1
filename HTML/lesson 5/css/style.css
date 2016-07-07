@@ -1,0 +1,108 @@
+*{
+box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background: url(../img/fon.jpg) no-repeat;
+	background-size: 100%;
+	font-family: "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+
+ul {
+	
+    margin: -8px -8px 0 -8px;
+    list-style: none;
+    color: white;
+    text-align: right;
+}
+ul li {
+	display: inline-block;
+    padding: 11px 10px;
+}
+.menu ul {
+	background-color: #074f8d;
+	height: 40px;
+
+}
+
+.menu a {
+	text-decoration: none;
+	color: #60b5ed;
+}
+.menu a:hover {
+	color: white;
+	background-color: #4eabda;
+	padding: 11px 10px;
+}
+
+span.line {
+	border-left: 1px solid #4eabda;
+    padding-left: 15px;
+}
+button.checkin {
+	margin-right: 20px;
+	margin-left: 10px;
+	padding: 15px 10px 10px;
+	background: #307dc6;
+	border: none;
+	color: white;
+	text-decoration: underline;
+}
+.conteiner {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 480px;
+	width: 420px;
+	position: fixed;
+	top: 27%;
+	left: 35%;
+}
+
+.text {
+	color: white;
+	text-align: center;
+}
+
+.h1 {
+	font-size: 16px;
+}
+
+.colortext {
+	background: black;
+	border: none;
+}
+input[type="entry"]{
+	padding: 13px;
+	color: white;
+}
+input[type="password"]{
+	padding: 13px;
+	color: white;
+}
+input.colortext {
+	width: 200px;
+	height: 30px;
+}
+input.colortext:focus {
+	background-color: #1b5288;
+    box-shadow: 0 0 20px rgb(138,173,208);
+}
+
+button.click {
+    padding: 7px 15px;
+    border-radius: 5px;
+background: #449dd4;
+border-color: #449dd4;
+color: 	white;
+   }
+
+.text {
+	font-size: 12px;
+    margin: 20px;
+}
+
