@@ -14,21 +14,18 @@ body{
 	font-family: "Helvetica Neue", Tahoma, Arial, sans-serif;
 }
 
-ul {
-	
-    margin: -8px -8px 0 -8px;
-    list-style: none;
-    color: white;
-    text-align: right;
-}
-ul li {
-	display: inline-block;
-    padding: 11px 10px;
+.menu {
+	text-align: right;
+margin: -16px -8px 0px -8px;
+	height: 40px;
 }
 .menu ul {
 	background-color: #074f8d;
-	height: 40px;
-
+    padding-right: 360px;
+}
+.menu li {
+	display: inline-block;
+    padding: 10px;
 }
 
 .menu a {
@@ -40,27 +37,48 @@ ul li {
 	background-color: #4eabda;
 	padding: 11px 10px;
 }
+.other {
+	margin-top: -36px;
+	text-align: right;
+	color: white;
+}
 
 span.line {
 	border-left: 1px solid #4eabda;
     padding-left: 15px;
+
 }
 button.checkin {
 	margin-right: 20px;
 	margin-left: 10px;
-	padding: 15px 10px 10px;
+	margin-top: -67px;
+	padding: 15px 10px 9px;
 	background: #307dc6;
 	border: none;
 	color: white;
 	text-decoration: underline;
+
 }
-.conteiner {
+.banner {
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 480px;
+	height: 60px;
 	width: 420px;
 	position: fixed;
-	top: 27%;
+	top: 25%;
 	left: 35%;
+
+}
+
+.data {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 419px;
+	width: 420px;
+	position: fixed;
+	top: 35%;
+	left: 35%;
+	padding-top: 20px;
+	margin-top: -5px;
+
 }
 
 .text {

@@ -4,8 +4,9 @@ box-sizing: border-box;
 
 body{
 	background:url(../img/font.jpg) no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	font: 14px 'Verdana', sans-serif;
+	background-attachment: fixed;
 }
 
 ul { 

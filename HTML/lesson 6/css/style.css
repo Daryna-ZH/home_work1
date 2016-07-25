@@ -1,0 +1,305 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	font-family: Tahoma, Arial, sans-serif;
+}
+.container {
+	width: 910px;
+ 	margin: 0 auto;
+}
+.phone__ico {
+	float: left;
+	width: 20px;
+	height: 21px;
+	border-radius: 10px;
+	background: #114266;
+	text-align: center;
+	margin-left: 8px;
+	margin-top: 5px;
+	position: absolute;
+}
+.phone__text {
+	float: left;
+	width: 300px;
+	margin-left: 31px;
+	margin-top: 3px;
+	letter-spacing: 0.45px;
+	line-height: 25px;
+	font-size: 18px;
+    color: #5e696d;
+}
+.chekin {
+	float: left;
+	width: 494px;
+	height: 25px;
+	margin-left: -16px;
+	margin-top: 1px;
+	background: #114266;
+	border-radius: 4px;
+	color: white;
+	font-size: 11px;
+	box-shadow: 2px 2px 5px grey;
+}
+.icon {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.authorization {
+	margin-top: -22px;
+	margin-left: 24px;
+}
+
+.chekin input {
+	width: 113px;
+	height: 17px;
+}
+input[type="password"] {
+    margin-left: 4px;
+}
+
+.chekin .passw {
+	text-decoration: underline;
+	font-size: 12px;
+	color: #bfbfbf;
+	padding-left: 22px;
+}
+
+.chekin .entrance {
+	margin-left: 6px;
+	margin-right: 4px;
+}
+
+.chekin .chek {
+	border-left: 1px solid white;
+	padding-left: 5px;
+}
+
+.navigation {
+	float: left;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0px 6px 2px 8px;
+	margin-left: 18px;
+	box-shadow: 1px 2px 3px grey;
+}
+
+.navigation img {
+padding-right: 5px;
+}
+
+.image img {
+	margin-top: 9px;
+}
+
+.menu {
+	background: #151719;
+	height: 35px;
+	width: 910px;
+	border-radius: 5px;
+	margin-top: -11px;
+	letter-spacing: 0.6px;
+}
+
+.menu ul {
+	margin-left: 107px;
+}
+.menu li {
+	display: inline-block;
+		color: white;
+		list-style: none;
+		margin-top: 8px;
+}
+/*.menu .company:hover {
+	background: #195779;
+	color: white;
+	border-radius: 10px;
+	padding-left: 10px;
+}*/
+.menu .payment {
+	padding-left: 31px;
+}
+
+.menu .delivery {
+	padding-left: 28px;
+}
+
+.menu .articles {
+	padding-left: 27px;
+}
+
+.menu .contacs {
+	padding-left: 22px;
+}
+
+.menu .basket {
+	margin-left: 65px;
+	margin-right: 3px;
+}
+
+.menu .text {
+	font-size: 11px;
+	color: white;
+}
+.menu .number {
+	font-size: 12px;
+	color: #0d5a8f;
+	margin-right: 4px;
+}
+/*.clear:after {
+		content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+*/
+.search1 {
+		position: relative;
+	float: left;
+	width: 415px;
+	height: 135px;
+	font-size: 10px;
+	border: 1px solid #a3a3a4;
+    border-radius: 14px;
+    margin: 10px 14px 0px 5px;
+	padding: 2px 14px 0px 15px;
+	font-weight: bold;
+	box-shadow: 1px 2px 3px grey;
+}
+
+.title {
+	text-align: left;
+	font-weight: bold;
+	color: #114165;
+	font-size: 12px;
+	letter-spacing: 0.6px;
+	margin-left: -7px;
+}
+.title0 {
+	display: block;
+	text-align: center;
+    color: #114165;
+    font-size: 12px;
+    font-weight: bold;
+	letter-spacing: 0.6px;
+	margin-top: -17px;
+	margin-left: -14px;
+}
+
+.title1 {
+	display: block;
+	text-align: right;
+	    color: #114165;
+    font-size: 10px;
+    font-weight: bold;
+	letter-spacing: 0.6px;
+	margin-top: -11px;
+	margin-right: 7px;
+}
+
+.title2 {
+	display: block;
+	text-align: left;
+	color: #114165;
+    font-size: 10px;
+    font-weight: bold;
+	letter-spacing: 0.6px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.search2 {
+	position: relative;
+	float: left;
+	width: 194px;
+	height: 135px;
+	font-size: 10px;
+    border: 1px solid #a3a3a4;
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-right: 9px;
+	padding: 2px 14px 0px 15px;
+	font-weight: bold;
+	box-shadow: 1px 2px 3px grey;
+}
+.search3 {
+	position: relative;
+    float: left;
+    width: 267px;
+	font-size: 10px;
+	border: 1px solid #a3a3a4;
+	border-radius: 14px;
+	height: 135px;
+	margin-top: 10px;
+	padding: 2px 14px 0px 15px;
+	font-weight: bold;
+	box-shadow: 1px 2px 3px grey;
+}
+
+.properties {
+	width: 170px;
+	margin-top: 4px;
+	line-height: 0.9em;
+}
+.prop {
+	margin-bottom: 4px;
+}
+span .dia {
+	margin-top: -10px;
+}
+.disc {
+	color: #77858b;
+}
+.quan {
+	margin-right: 30px;
+}
+select {
+	border-bottom: 0px;
+	font-size: 11px;
+}
+.diametr {
+	width: 56px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+.quant {
+	width: 50px;
+	margin-top: -8px;
+}
+.diam {
+	width: 56px;
+	margin-top: -8px;
+}
+.righttext {
+	border-left: 1px solid #bdc6ca;
+	float: right;
+	width: 80px;
+	height: 107px;
+    position: absolute;
+    top: 5px;
+    left: 175px;
+    padding-left: 9px;
+    line-height: 0.8em;
+}
+.dco {
+	color: #77858b;
+	font-size: 10px;
+	font-weight: normal;
+}
+.righttext select {
+	margin: 5px 0 9px 2px;
+	width: 57px;
+}
+.other {
+    float: right;
+	font-style: italic;
+	text-decoration: underline;
+	color: #114165;
+	font-size: 14px;
+	margin-top: -6px;
+	}
