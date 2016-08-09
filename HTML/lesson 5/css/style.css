@@ -16,7 +16,7 @@ body{
 
 .menu {
 	text-align: right;
-margin: -16px -8px 0px -8px;
+    margin: -16px -8px 0px -8px;
 	height: 40px;
 }
 .menu ul {
@@ -28,14 +28,14 @@ margin: -16px -8px 0px -8px;
     padding: 10px;
 }
 
-.menu a {
+.menu li a {
 	text-decoration: none;
 	color: #60b5ed;
+	padding: 11px 10px;
 }
 .menu a:hover {
 	color: white;
 	background-color: #4eabda;
-	padding: 11px 10px;
 }
 .other {
 	margin-top: -36px;
@@ -64,7 +64,7 @@ button.checkin {
 	height: 60px;
 	width: 420px;
 	position: fixed;
-	top: 25%;
+	top: 170px;
 	left: 35%;
 
 }
@@ -74,7 +74,7 @@ button.checkin {
 	height: 419px;
 	width: 420px;
 	position: fixed;
-	top: 35%;
+	top: 236px;
 	left: 35%;
 	padding-top: 20px;
 	margin-top: -5px;

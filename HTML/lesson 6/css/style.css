@@ -171,6 +171,18 @@ padding-right: 5px;
 	font-weight: bold;
 	box-shadow: 1px 2px 3px grey;
 }
+.mark {
+	padding-top: 8px;
+	padding-bottom: 1px;
+}
+.yaer {
+	padding-top: 10px;
+}
+/*
+.wheels .disc {
+	line-height: 0.4em;
+}*/
+
 
 .title {
 	text-align: left;
@@ -249,9 +261,9 @@ padding-right: 5px;
 .prop {
 	margin-bottom: 4px;
 }
-span .dia {
+/*span .dia {
 	margin-top: -10px;
-}
+}*/
 .disc {
 	color: #77858b;
 }
@@ -303,3 +315,27 @@ select {
 	font-size: 14px;
 	margin-top: -6px;
 	}
+.leftInform {
+	float: left;
+	width: 15%;
+}
+.centerInform {
+	float: left;
+	background: #93a7b0;
+	width: 60%;
+}
+/*.select p  {
+	text-align: center;
+}*/
+.hItem {
+	color: #206988;
+}
+.item {
+	margin-top: -10px;
+}
+.imgBus {
+	text-align: center;
+	width: 140px;
+	height: 129px;
+
+}
