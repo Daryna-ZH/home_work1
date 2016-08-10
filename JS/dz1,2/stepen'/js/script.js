@@ -24,3 +24,4 @@ var x = prompt("Введите число", '');
 var n = prompt("Введите степень, в которую необходимо возвести число", ''); 
 
 alert( powInt(x, n)); 
+console.log(powInt(x, n));
