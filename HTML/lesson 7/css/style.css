@@ -1,0 +1,28 @@
+*{
+box-sizing: border-box;
+}
+body {
+	font-size: 14px;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+.container {
+	width: 960px;
+}
+
+.wrapper {
+	background: url(../img/topFon.png) no-repeat;
+	text-align: center;
+	padding-top: 50px;
+}
+.topMenu {
+	color: white;
+}
+.topMenu li {
+	list-style: none;
+	display: inline;
+	font-size: 18px;
+}
+.footer {
+	background: url(../img/botFon.png) no-repeat;
+}

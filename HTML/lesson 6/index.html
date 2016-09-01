@@ -57,20 +57,21 @@
 	</ul>
 </div>
 <div class="search1">
-<span class="title2">
+<span class="titleDisc">
 	Диски:
 </span>
-	<span class="title0">
+	<span class="titleGlobal">
 		Поиск по автомобилю
 	</span>
-	<span class="title1">
+	<span class="titleBus">
 		Шины:
 	</span>
-	<div class="wheels">
+
+	<div class="searchFormLeft">
 		<div class="mark">
 			<span>Марка</span>
-			<span class="disc">авто:</span>
-			<select>
+			<span class="grayFont">авто:</span>
+			<select class="size">
 				<option value>любая</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -81,9 +82,9 @@
 		<div class="model">
 			<span>Модель
 			<br>
-			<span class="disc">автомобиля</span>
+			<span class="grayFont">автомобиля</span>
             </span>
-            <select>
+            <select class="size">
             	<option value>любая</option>
             	<option value="1">1</option>
             	<option value="2">2</option>
@@ -91,10 +92,10 @@
             </select>
 		</div>
 		<div class="year">
-			<span class="dia">Год выпуска</span>
+			<span>Год выпуска</span>
 			<br>
-			<span class="disc">автомобиля:</span>
-			<select>
+			<span class="grayFont">автомобиля:</span>
+			<select class="sizeYear">
 				<option value></option>
 				<option value="1997">1997</option>
 				<option value="2000">2000</option>
@@ -103,8 +104,8 @@
 			</select>
 		</div>
 		<div class="complectation">
-			<span class="dia">Комплектация:</span>
-			<select>
+			<span>Комплектация:</span>
+			<select class="sizeCompl">
 				<option value></option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -112,11 +113,11 @@
 			</select>
 		</div>
 	</div>
-	<div class="tyres">
-		<div class="Rcontent">
+	<div class="searchFormRight">
+		<div class="mark">
 			<span>Марка</span>
-			<span class="disc">авто:</span>
-			<select>
+			<span class="grayFont">авто:</span>
+			<select class="size">
 				<option value>любая</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -124,23 +125,23 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-				<div class="Rcontent">
+				<div class="model">
 			<span>Модель
 			<br>
-			<span class="disc">автомобиля</span>
+			<span class="grayFont">автомобиля</span>
             </span>
-            <select>
+            <select class="size">
             	<option value>любая</option>
             	<option value="1">1</option>
             	<option value="2">2</option>
             	<option value="3">3</option>
             </select>
 		</div>
-		<div class="Rcontent">
+		<div class="year">
 			<span>Год выпуска</span>
 			<br>
-			<span class="disc">автомобиля:</span>
-			<select>
+			<span class="grayFont">автомобиля:</span>
+			<select class="sizeYear">
 				<option value></option>
 				<option value="1997">1997</option>
 				<option value="2000">2000</option>
@@ -148,9 +149,9 @@
 				<option value="2006">2006</option>
 			</select>
 		</div>
-		<div class="Rcontent">
-			<span class="dia">Комплектация:</span>
-			<select>
+		<div class="complectation">
+			<span>Комплектация:</span>
+			<select class="sizeCompl">
 				<option value></option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -158,16 +159,16 @@
 			</select>
 		</div>
 	</div>
-
 </div>
+
 <div class="search2">
 	<span class="title">
 		поиск шин
 	</span>
 	<div class="option">
-		<div class="size">
+		<div class="sizeBus">
 			<span>Размер:</span>
-			<select class="thesize">
+			<select>
 			<option value>все</option>
 			<option value="145">145</option>
 			<option value="155">155</option>
@@ -193,24 +194,15 @@
 			</select>
 		</div>
 		<div class="season">
-			<span>Сезон:</span>
+			<p>Сезон:</p>
 			<div class="SWA">
-				<input type="checkbox">
-				<span>лето</span>
-			</div>
-				<div class="SWA">
-				<input type="checkbox">
-				<span>зима</span>
+				<input type="checkbox">лето<br>
+				<input type="checkbox">зима<br>
+				<input type="checkbox">всесез<br>
 				</div>
-				<div class="SWA">
-				<input type="checkbox">
-				<span>всесез</span>
-			    </div>
 		    </div>
 	    </div>
-    <div class="other">
-		<a href="#"><span>поиск...</span></a>
-	</div>
+
 </div>
 
 <div class="search3">
@@ -219,8 +211,8 @@
 	</span>
 	<div class="properties">
 	    <div class="prop">
-	    	<span class="dia">Диаметр</span>
-	    	<span class="disc">диска:</span>
+	    	<span>Диаметр</span>
+	    	<span class="grayFont">диска:</span>
 	    	<select class="diametr">
 	    		<option value>все</option>
 	    		<option value="1">12</option>
@@ -232,9 +224,9 @@
 	    <div class="prop">
 	    	<span class="quan">Количество
 	    	<br>
-	    	<span class="disc">крепёжных</span>
+	    	<span class="grayFont">крепёжных</span>
 	    	<br>
-	    	<span class="disc">отверстий:</span>
+	    	<span class="grayFont">отверстий:</span>
 	    	</span>
 	    	<select class="quant">
 	    		<option value>все</option>
@@ -246,11 +238,11 @@
 	    <div class="prop">
 	    <span class="quan">Диаметр
 	    <br>
-	    <span class="disc">расположения</span>
+	    <span class="grayFont">расположения</span>
 	    <br>
-	    <span class="disc">крепёжных</span>
+	    <span class="grayFont">крепёжных</span>
 	    <br>
-	    <span class="disc">отверстий:</span>
+	    <span class="grayFont">отверстий:</span>
 	    </span>
 	    <select class="diam">
 	    	<option value>все</option>
@@ -264,9 +256,9 @@
 	<div class="righttext">
 	<span>ДЦО</span>
 	<br>
-	<span class="dco">(диаметр</span>
-	<span class="dco">центрального</span>
-	<span class="dco">отверстия):</span>
+	<span class="dcoColor">(диаметр</span>
+	<span class="dcoColor">центрального</span>
+	<span class="dcoColor">отверстия):</span>
 		<select>
 			<option value>все</option>
 			<option value="12">12</option>
@@ -275,7 +267,7 @@
 		</select>
 		<span>ET
 			<br>
-			<span class="dco">(вылет диска):</span>
+			<span class="dcoColor">(вылет диска):</span>
 		</span>
 		<select>
 			<option value>все</option>
@@ -285,92 +277,134 @@
 			<option value="13">13</option>
 		</select>
 	</div>
-	<div class="other">
+<!-- 	<div class="other">
 		<a href="#"><span>поиск...</span></a>
-	</div>
+	</div> -->
 </div>
-
-
 <div class="clear">
-	<div class="leftside">
-		<div class="cart">
-			<img src="img/icon.png">
-		</div>
-		<p class="sidemenu">КАТАЛОГ ПРОДУКЦИИ:</p>
-    </div>
-  </div>
-  <div class="middle">
-  	<div class="leftInform">
-
-	<div class="c-bus">
-	<span class="bus">ШИНЫ</span>
-		<li>Наименование 1</li>
+<div class="leftSide">
+   <p class="titleCatalog">КАТАЛОГ ПРОДУКЦИИ:</p>
+   <div class="nestedBlock">
+   	   <p>ШИНЫ</p>
+   	   <ul>
+        <li>Наименование 1</li>
 		<li>Наименование 2</li>
 		<li>Наименование 3</li>
 		<li>Наименование 4</li>
-	</div>
-	<div class="c-disc">
-	<span class="bus">ДИСКИ</span>
-		<li>Наименование 1</li>
+		</ul>
+   </div>
+      <div class="nestedBlock">
+   	   <p>ДИСКИ</p>
+   	   <ul>
+        <li>Наименование 1</li>
 		<li>Наименование 2</li>
 		<li>Наименование 3</li>
 		<li>Наименование 4</li>
-	</div>
-	<div class="c-bolts">
-	<span class="bus">БОЛТЫ</span>
-		<li>Наименование 1</li>
+		</ul>
+   </div>
+         <div class="nestedBlock">
+   	   <p>БОЛТЫ</p>
+   	   <ul>
+        <li>Наименование 1</li>
 		<li>Наименование 2</li>
 		<li>Наименование 3</li>
 		<li>Наименование 4</li>
-	</div>
-</div>
-  		
-  	</div>
-  	<div class="centerInform">
-<div class="oneBus">
-	<p class="hItem">Goodyear</p>
-	<p class="item">Ultra Grip Extreme</p>
-	<div class="imgBus">
-	<img src="img/bus1.png">
-	</div>
-	<p><span class="price">90.00 грн.</p>
-</div>
-<div class="twoBus">
-	<p class="hItem">Nokian</p>
-	<p class="item">Hakkapeliitta R</p>
-	div.im
-	<img src="img/bus2.png">
-	<p><span class="price">115.00 грн.</p>
-</div>
-<div class="threeBus">
-	<p class="hItem">Hankook</span>
-	<p class="item">K 708 155/65 R14</p>
-	<img src="img/bus3.png">
-	<p><span class="price">393.00 грн.</span></p>
-  	</div>
-  </div>
+		</ul>
+   </div>
 
-<div class="brands">
-	<div class="s-bus">
-		<input type="checkbox" id="updates1">
-		<label for="updates1">Бренд 1</label>
-		<input type="checkbox" id="updates2">
-		<label for="updates2">Бренд 2</label>
-		<input type="checkbox" id="updates3">
-		<label for="updates3">Бренд 3</label>
+</div>
+<div class="centerContent">
+	<div class="item">
+	    <p class="model1">Goodyear</p>
+	    <p class="model2">Ultra Grip Extreme</p>
+	    <div class="picture">
+	    	<img src="../lesson 6/img/bus1.png">
+	    </div>
+		<p class="price">90.00 грн.</p>
 	</div>
-    <div class="s-disc">
-		<input type="checkbox" id="updates1">
-		<label for="updates1">Бренд 1</label>
-		<input type="checkbox" id="updates2">
-		<label for="updates2">Бренд 2</label>
-		<input type="checkbox" id="updates3">
-		<label for="updates3">Бренд 3</label>
-	<p><button>Выбрать</button></p>
+<div class="item">
+	<p class="model1">Nokian</p>
+	<p class="model2">Hakkapeliitta R</p>
+	<div class="picture">
+		<img src="../lesson 6/img/bus2.png">
 	</div>
+	<p class="price">115.00 грн.</p>
+</div>
+<div class="item">
+	<p class="model1">Hankook</p>
+	<p class="model2">K 708 155/65 R14</p>
+	<div class="picture">
+		<img src="../lesson 6/img/bus3.png">
+	</div>
+	<p class="price">393.00 грн.</p>
+</div>
+	<div class="item">
+	    <p class="model1">Goodyear</p>
+	    <p class="model2">Ultra Grip Extreme</p>
+	    <div class="picture">
+	    	<img src="../lesson 6/img/bus1.png">
+	    </div>
+		<p class="price">90.00 грн.</p>
+	</div>
+<div class="item">
+	<p class="model1">Nokian</p>
+	<p class="model2">Hakkapeliitta R</p>
+	<div class="picture">
+		<img src="../lesson 6/img/bus2.png">
+	</div>
+	<p class="price">115.00 грн.</p>
+</div>
+<div class="item">
+	<p class="model1">Hankook</p>
+	<p class="model2">K 708 155/65 R14</p>
+	<div class="picture">
+		<img src="../lesson 6/img/bus3.png">
+	</div>
+	<p class="price">393.00 грн.</p>
+</div>
+	<div class="item">
+	    <p class="model1">Goodyear</p>
+	    <p class="model2">Ultra Grip Extreme</p>
+	    <div class="picture">
+	    	<img src="../lesson 6/img/bus1.png">
+	    </div>
+		<p class="price">90.00 грн.</p>
+	</div>
+<div class="item">
+	<p class="model1">Nokian</p>
+	<p class="model2">Hakkapeliitta R</p>
+	<div class="picture">
+		<img src="../lesson 6/img/bus2.png">
+	</div>
+	<p class="price">115.00 грн.</p>
+</div>
+<div class="item">
+	<p class="model1">Hankook</p>
+	<p class="model2">K 708 155/65 R14</p>
+	<div class="picture">
+		<img src="../lesson 6/img/bus3.png">
+	</div>
+	<p class="price">393.00 грн.</p>
 </div>
 </div>
 
+<div class="rightSide">
+	   <p class="titleBrends">БРЕНДЫ:</p>
+     <div class="nestedBlockR">
+   	   <p>ШИНЫ</p>
+   	   <input type="checkbox">Бренд 1<br>
+   	   <input type="checkbox">Бренд 2<br>
+   	   <input type="checkbox">Бренд 3<br>
+   	 </div>
+   	 <div class="nestedBlockR">
+   	 	<p>ДИСКИ</p>
+   	   <input type="checkbox">Бренд 1<br>
+   	   <input type="checkbox">Бренд 2<br>
+   	   <input type="checkbox">Бренд 3<br>
+   	   <input type="submit" value="ВЫБРАТЬ">
+   	 </div>
+</div>
+</div>
 <div class="sponsors">
 	<a href="#"><img src="img/toyo1.png"></a>
 	<a href="#"><img src="img/ani2.png"></a>
