@@ -18,14 +18,14 @@ body {
 	background: #114266;
 	text-align: center;
 	margin-left: 8px;
-	margin-top: 5px;
+	margin-top: 6px;
 	position: absolute;
 }
 .phone__text {
 	float: left;
 	width: 300px;
 	margin-left: 31px;
-	margin-top: 3px;
+	margin-top: 4px;
 	letter-spacing: 0.45px;
 	line-height: 25px;
 	font-size: 18px;
@@ -35,8 +35,9 @@ body {
 	float: left;
 	width: 494px;
 	height: 25px;
-	margin-left: -16px;
-	margin-top: 1px;
+	margin-left: -17px;
+	margin-top: 2px;
+	padding-right: 8px;
 	background: #114266;
 	border-radius: 4px;
 	color: white;
@@ -45,38 +46,59 @@ body {
 }
 .icon {
 	padding-top: 5px;
-	padding-left: 5px;
+	padding-left: 6px;
 }
 
 .authorization {
 	margin-top: -22px;
-	margin-left: 24px;
+	margin-left: 25px;
 }
 
 .chekin input {
 	width: 113px;
 	height: 17px;
+	font-size: 11px;
+}
+.chekin input[type="login"] {
+	letter-spacing: 0.03em;
+    padding-bottom: 3px;
+    padding-left: 3px;
 }
 .chekin input[type="password"] {
     margin-left: 4px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+.action {
+	text-align: right;
+	margin-top: -16px;
+}
+.action a {
+
+	padding-left: 3px;
+}
+.action .entrance {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 0.02em;
+}
+
+.action .chek {
+	border-left: 1px solid white;
+	padding-left: 6px;
+	padding-right: 16px;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 0.02em;
 }
 
 .chekin .passw {
 	text-decoration: underline;
 	font-size: 12px;
 	color: #bfbfbf;
-	padding-left: 22px;
+	letter-spacing: 0.02em;
 }
 
-.chekin .entrance {
-	margin-left: 6px;
-	margin-right: 4px;
-}
-
-.chekin .chek {
-	border-left: 1px solid white;
-	padding-left: 5px;
-}
 
 .navigation {
 	float: left;
@@ -97,7 +119,7 @@ padding-right: 5px;
 	margin-top: 9px;
 }
 
-.menu {
+nav {
 	background: #151719;
 	height: 35px;
 	width: 910px;
@@ -106,62 +128,80 @@ padding-right: 5px;
 	letter-spacing: 0.6px;
 }
 
-.menu ul {
+nav ul {
 	margin-left: 107px;
 }
-.menu li {
+nav li {
 	display: inline-block;
-		color: white;
-		list-style: none;
-		margin-top: 8px;
+	color: white;
+	list-style: none;
+	margin-top: 8px;
 }
 
-.menu .payment {
-	padding-left: 31px;
+nav .payment {
+	padding-left: 32px;
 }
 
-.menu .delivery {
+nav .delivery {
 	padding-left: 28px;
 }
 
-.menu .articles {
+nav .articles {
 	padding-left: 27px;
 }
 
-.menu .contacs {
+nav .contacs {
 	padding-left: 22px;
 }
-
-.menu .basket {
-	margin-left: 65px;
-	margin-right: 3px;
+nav li:hover {
+	background: #114266;
+	padding: 3px 15px;
+	margin-top: -25px;
+	margin-left: 5px;
+	border-radius: 14px;
 }
-
-.menu .text {
+nav .basket {
+float: right;
+margin-top: -31px;
+margin-right: 206px;
+}
+.goods {
+	margin-right: 14px;
+	margin-top: -30px;
+	text-align: right;
 	font-size: 11px;
-	color: white;
 }
-.menu .number {
-	font-size: 12px;
+.goods .text {
+	color: #666c70;
+}
+.goods .number1 {
+	margin-left: -4px;
+	margin-right: 11px;
+    color: #0d5a8f;
+    font-weight: bold;
+}
+.goods .number2 {
 	color: #0d5a8f;
-	margin-right: 4px;
+	margin-left: 6px;
+	font-weight: bold;
 }
+
 .search1 {
-		position: relative;
+	position: relative;
 	float: left;
 	width: 415px;
 	height: 135px;
 	font-size: 10px;
 	border: 1px solid #a3a3a4;
-    border-radius: 14px;
-    margin: 10px 14px 0px 5px;
-	padding: 2px 14px 0px 15px;
+    border-radius: 16px;
+    margin: 10px 14px 0px 4px;
+	padding: 3px 14px 0px 17px;
 	font-weight: bold;
 	box-shadow: 1px 2px 3px grey;
 }
 .mark {
-	padding-top: 8px;
-	padding-bottom: 1px;
+	padding-top: 9px;
+	padding-bottom: 4px;
 }
 .title {
 	text-align: left;
@@ -169,7 +209,7 @@ padding-right: 5px;
 	color: #114165;
 	font-size: 12px;
 	letter-spacing: 0.6px;
-	margin-left: -7px;
+	margin-left: -5px;
 }
 
 .titleDisc {
@@ -179,7 +219,7 @@ padding-right: 5px;
     font-size: 10px;
     font-weight: bold;
 	letter-spacing: 0.6px;
-	margin: 2px 0 0 5px;
+	margin: 1px 0 0 4px;
 }
 .titleGlobal {
 	display: block;
@@ -187,8 +227,8 @@ padding-right: 5px;
     color: #114165;
     font-size: 12px;
     font-weight: bold;
-	letter-spacing: 0.9px;
-	margin: -15px 0 17px -8px;
+	letter-spacing: 0.95px;
+	margin: -16px 0 17px -6px;
 }
 .titleBus {
 	display: block;
@@ -197,17 +237,20 @@ padding-right: 5px;
     font-size: 10px;
     font-weight: bold;
 	letter-spacing: 0.6px;
-	margin: -29px 7px 0 0;
+	margin: -29px 5px 0 0;
 }
 .searchFormLeft {
 	line-height: 0.9em;
+	letter-spacing: -0.07em;
 }
 
 .searchFormRight {
   float: right;
   margin-top: -93px;
-  margin-right: -7px;
+  margin-right: 1px;
   line-height: 0.9em;
+  letter-spacing: -0.07em;
+
 }
 
 
@@ -217,17 +260,24 @@ select {
 }
 .size {
 	width: 101px;
-	margin-left: 11px;
+	margin-left: 19px;
 }
 .sizeYear {
    width: 57px;
-   	margin-left: 7px;
+   margin-left: 15px;
+   margin-top: -7px;
 }
 .sizeCompl {
 	width: 101px;
-	margin-top: 5px;
+	margin-top: 3px;
 }
-
+.scan {
+	float: right;
+	margin-top: 4px;
+	margin-right: 7px;
+	font-size: 13px;
+	font-style: italic;
+}
 .search2 {
 	position: relative;
 	float: left;
@@ -235,7 +285,7 @@ select {
 	height: 135px;
 	font-size: 10px;
     border: 1px solid #a3a3a4;
-    border-radius: 14px;
+    border-radius: 16px;
     margin-top: 10px;
     margin-right: 9px;
 	padding: 2px 14px 0px 15px;
@@ -247,7 +297,7 @@ select {
 }
 .sizeBus {
 	margin-top: 10px;
-	margin-left: -4px;
+	margin-left: -3px;
 }
 
 .R {
@@ -260,9 +310,15 @@ select {
 }
 
 .SWA {
-	margin: -22px 0 0 39px;
+	margin: -26px 0 0 39px;
 }
-
+.scan2 {
+	float: right;
+	margin-top: -13px;
+	margin-right: 5px;
+	font-size: 13px;
+	font-style: italic;
+}
 .search3 {
 	position: relative;
     float: left;
@@ -326,13 +382,12 @@ select {
 	margin: 5px 0 9px 2px;
 	width: 57px;
 }
-.other {
+.scan3 {
     float: right;
 	font-style: italic;
-	text-decoration: underline;
-	color: #114165;
-	font-size: 14px;
-	margin-top: -6px;
+	font-size: 13px;
+	margin-top: -8px;
+	margin-right: 3px;
 	}
 
 .leftSide {
@@ -352,22 +407,26 @@ select {
 .nestedBlock {
 	padding-left: 3px;
 	margin-top: -3px;
-	margin-bottom: -11px;
+	margin-bottom: -17px;
 }
 
 .nestedBlock p {
-	padding: 7px 0 0 30px;
+	padding: 6px 0 0 28px;
 	height: 29px;
 	background: url(../img/catalog2.png) no-repeat;
+    letter-spacing: 0.1em;
+    margin-left: 1px;
 
 }
 .nestedBlock ul {
-    margin: -13px 0 0 5px;
+	font-size: 13px;
+    margin: -17px 0 0 6px;
 }
 
 .nestedBlock li {
+	letter-spacing: 0.04em;
 	list-style-type: circle;
-    line-height: 1.78;
+    line-height: 2;
 }
 
 .nestedBlock li:hover {
@@ -378,9 +437,10 @@ select {
 .centerContent {
 	float: left;
 	background: linear-gradient(to bottom, #e4e7e8, #93a7b0);
+	background-attachment: fixed;
 	width: 526px;
 	height: 626px;
-    margin: 16px 0 38px 2px;
+    margin: 16px 0 0 2px;
 }
 
 .item {
@@ -393,55 +453,73 @@ select {
 
 .model1 {
 	color: #206988;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 14px;
 }
 
 .model2 {
-	font-size: 11px;
-	letter-spacing: 0.1em;
+	font-size: 12px;
+	letter-spacing: 0.08em;
 	height: 10px;
-	margin: -15px 0 5px 3px;
+	margin: -17px 0 -9px 7px;
 }
-
-.picture {
+figure {
 	padding-top: 5px;
 	height: 130px;
+	width: 137px;
 	background: white;
 	border: 1px solid grey;
 	border-radius: 10px;
+	margin-left: 2px;
 }
-.price {
+figcaption {
 	color: #114165;
 	font-weight: bold;
 	font-style: italic;
-	margin: 2px 0 0 6px;
+	margin: 4px 0 0 10px;
 }
 
 .rightSide {
 	float: left;
 	width: 192px;
 	color: #114165;
+	margin-top: -1px;
 }
 
 .titleBrends {
-	margin: 18px 0 0 9px;
+	margin: 18px 0 0 10px;
 	height: 29px; 
-	padding: 3px 0 0 32px;
+	padding: 4px 0 0 32px;
     background: url(../img/catalog.png) no-repeat;
 }
-.nestedBlockR p {
+.nestedBlockR1 p {
 	background: url(../img/catalog3.png) no-repeat;
-	margin: 10px 0 0 25px;
-    padding: 7px 0 0 30px;
+	margin: 12px 0 -3px 25px;
+    padding: 5px 0 0 31px;
+    letter-spacing: 0.05em;
 	height: 29px;
 }
-.nestedBlockR input[type="checkbox"] {
-	margin: 9px 10px 0 33px;
+.nestedBlockR2 p {
+	background: url(../img/catalog3.png) no-repeat;
+	margin: 13px 0 -1px 23px;
+    padding: 5px 0 0 33px;
+    letter-spacing: 0.05em;
+	height: 29px;
+}
+
+
+.nestedBlockR1 input[type="checkbox"] {
+	margin: 9px 10px 0 35px;
 	padding-left: 10px;
 }
-.nestedBlockR input[type="submit"] {
-	margin: 18px 0 0 33px;
+.nestedBlockR2 input[type="checkbox"] {
+	margin: 9px 10px 0 35px;
+	padding-left: 10px;
+}
+.nestedBlockR2 input[type="submit"] {
+	margin: 17px 0 0 32px;
 	border-radius: 10px;
 	background: #154b6d;
 	color: white;
@@ -458,11 +536,44 @@ select {
 }
 .sponsors {
 		text-align: center;
+		margin: 43px 0 -1px 117px;
+
 }
-.sponsors a {
-	margin-right: 7px;
+.toyo {
+	float: left;
+	margin-right: 11px;
+
 }
-.footer {
+.abid {
+	float: left;
+	margin-right: 14px;
+}
+.tire {
+	float: left;
+	margin-right: 14px;
+}
+.four {
+	float: left;
+	margin-right: 12px;
+}
+.avon {
+	float: left;
+	margin-right: 13px;
+}
+.tire {
+	margin-top: -4px;
+	float: left;
+}
+.irelli {
+	float: left;
+	margin-right: 14px;
+}
+.dunl {
+	float: left;
+}
+
+
+footer {
 	background: #213a4d;
 	text-align: center;
 	margin-top: 24px;
@@ -470,27 +581,27 @@ select {
 	list-style: none;
 	font-size: 13px;
 }
-.footer li {
-	margin: 8px 0 0 11px;
+footer li {
+	margin: 8px 2px 0 8px;
 	display: inline-block;
 }
 .bord {
     border-left: 1px solid white;
     padding-left: 11px;
-
 }
-.footer li a {
+footer li a {
 	text-decoration: none;
 	color: white;
 }
 
-.footer li a:hover {
+footer li a:hover {
 	color: #4fa5c4;
 }
 
 .copyright {
 	color: #604245;
 	font-size: 11px;
+	margin-top: 13px;
 }
 
 
