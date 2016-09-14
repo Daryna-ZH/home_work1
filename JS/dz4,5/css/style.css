@@ -1,0 +1,11 @@
+body {
+	height: 120px;
+   background: linear-gradient(to bottom, #dcdcdc, #808080) no-repeat;
+   text-align: center;
+
+}
+.time {
+	border: 1px solid grey;
+    margin: 20px;
+    box-shadow: 0 0 10px black;
+}

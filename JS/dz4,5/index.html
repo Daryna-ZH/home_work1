@@ -3,18 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div id="timer__screen">
-  <span class='timer__minutes'>00</span>
-  :
-  <span class='timer__seconds'>00</span>
-  :
-  <span class='timer__ms'>000</span>
+<div class="time">
+	<span id="timer__hours">00</span>
+	:
+  	<span id="timer__minutes">00</span>
+	:
+	<span id="timer__seconds">00</span>
+	:
+	<span id="timer__millisec">00</span>
 </div>
 
-<input type="button" class="start" value="start"></input>
-<input type="button" class="start" value="stop"></input>
+<div class="buttons">
+<button class="pure-button pure-button-active" id="start">START</button>
+<button class="pure-button pure-button-active" id="pause">PAUSE</button>
+<button class="pure-button pure-button-active" id="stop">STOP</button>
+</div>
 
+<script src="js/script.js"></script>
 </body>
 </html>

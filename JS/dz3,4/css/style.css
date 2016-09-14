@@ -2,10 +2,36 @@
 box-sizing: border-box;
 }
 
-.container {
+.conteiner {
 	width: 910px;
-	background: gray;
+
+	background: #F5F5F5;
+background-size: 100%;
+	
 	margin: 0 auto;
-	font-size: 14px;
+	font-size: 15px;
 }
 
+h1 {
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
+}
+
+li {
+	margin-top: 5px;
+}
+.content {
+	font-size: 12px;
+}
+
+button {
+	font-weight: 700;
+    background: linear-gradient(#D8BFD8, #E6E6FA);
+    padding: 5px 12px;
+    border-radius: 6px;
+    margin: 0 0 15px 350px;
+
+}
