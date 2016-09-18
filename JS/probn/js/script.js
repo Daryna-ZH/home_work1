@@ -1,4 +1,4 @@
-посчитать позицию єлемента (7-8)
+// посчитать позицию єлемента (7-8)
 
 rendertime
 updateViewIntervalId
@@ -43,3 +43,25 @@ document.getElementById('pause').addEventListener('click', function() {
 	pauseTime = (new Date()).getTime();
 }
 }
+
+// 2 формы , от первого, второго лица
+// история сообщений
+
+
+var submitButton = document.getElementById('start');
+var divContent = document.getElementById('chat');
+
+submitButton.onclick = function() {
+     var text = document.getElementById('userSubmit').value;
+     var user = document.getElementById('nameUsers').value;
+
+     text.appendChild(divContent);
+     divContent.innerHTML('<span>"text"</span');
+
+
+     
+}
+
+
+
+ 
