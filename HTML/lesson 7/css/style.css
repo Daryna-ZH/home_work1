@@ -1,47 +1,206 @@
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-body {
-	font-size: 14px;
-	font-family: Tahoma, Arial, sans-serif;
+/*body {
 	text-align: center;
-/*	width: 2400px;*/
-}
-
-
-header {
+}*/
+.wrapper__header {
 	background: url(../img/topFon.png) no-repeat;
-    height: 516px;
-    border-bottom: 1px solid black;
-    margin-left: -3px;
+	height: 800px;
+	font-family: 'Roboto', sans-serif;
 }
-
-section {
-	background: linear-gradient(#745082, #372a3e);
-	height: 480px;
+#header {	
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
 }
-article {
-	background: #eee;
-	height: 600px;
+.header__logo {
+	float: left;
+	width: 153px;
+	margin-top: 15px;
+	margin-right: 50px;
 }
-
-aside {
-	height: 360px;
-}
-footer {
-	background: url(../img/botFon.png) no-repeat;
-	height: 201px;
-}
-@media (max-width: 320px) {  
-	header {
-		width: 320px;
-	}
-.logo__pull {
-	padding-top: 50px;
+nav {
+	overflow: hidden;
+/*	padding-top: 5px;*/
 }
 .menu {
+	float: left;
+	width: 807px;
+	list-style: none;
+	font-size: 20px;
+/*	font-weight: bold;*/
+	text-shadow: 1px 1px 6px black;
+}
+.menu__item {
+display: inline-block;
+}
+.menu__link {
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	letter-spacing: -0.1em;
+}
+.menu__link:hover {
+	border-bottom: 4px solid #edbfff;
+}
+
+.slider {
+	 background: url(../img/slider960.png) no-repeat;
+     height: 500px;
+     width: 960px;
+     margin: 0 auto;
+     margin-top: 150px;
+}
+#sprite {
+	width: 960px;
+	margin: 0 auto;
+}
+.sprite.sprite__tool {
+	float: left;
+	width: 320px;
+}
+.sprite.sprite__talk {
+	float: left;
+	width: 320px;
+}
+.sprite.sprite__sound {
+	float: left;
+	width: 320px;
+}
+.content {
+	clear: both;
+}
+@media (max-width: 960px) {
+#header {
+	width: 95%;
+}
+#sprite {
+	width: 95%;
+}
+.sprite.sprite__tool {
+	width: 35%;
+}
+.sprite.sprite__talk {
+	width: 35%;
+}
+.sprite.sprite__sound {
+	width: 35%;
+}
+}
+
+@media (max-width: 768px) {
+	.slider {
+		background: url(../img/slider768.png) no-repeat;
+	}
+}
+/*
+.wrapper { 
+    width: 100%;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper__sprite {
+	background: linear-gradient(#745082, #372a3e);
+	height: 350px;
+}
+.wrapper__content {
+	background: #f9f9f9;
+    border-bottom: 1px solid #c9c9c9;
+}
+.wrapper__sponsors {
+	background: #f9f9f9;
+	height: 200px;
+    width: 2400px;
+}
+.wrapper__sidebar {
+	background: #ececec;
+	height: 400px;
+	width: 2400px;
+}
+.wrapper__footer {
+	background: url(../img/botFon.png) no-repeat;
+	height: 100px;
+}
+
+#header {
+ width: 45.1%;
+ margin: 0 auto;
+ padding-top: 30px;
+}
+#sprite {
+	padding-top: 55px;
+    color: white;
+    font-size: 21px;
+    width: 45.1%;
+    margin: 0 auto;
+}
+#sprite h1 {
+	font-size: 20px;
+}
+#sprite span a {
+	float: right;
+	color: white;
+	text-decoration: none;
+}
+#sprite span a:hover {
+	text-shadow: 1px 0px 1px white, 0 0 1em white;
+}
+.sprite__tool {
+	display: inline-block;
+	width: 30%;
+}
+.sprite__talk {
+	display: inline-block;
+	width: 30%;
+}
+.sprite__sound {
+	display: inline-block;
+	width: 30%;
+}
+
+.content {
+	width: 45.1%;
+	margin: 0 auto;
+}
+
+.content__starsHere {
+	height: 293px;
+	background: url(../img/okno.png) no-repeat;
+	display: inline-block;
+	width: 40%;
+	margin-bottom: 100px;
+}
+.content__news {
+    display: inline-block;
+    width: 40%;
+}
+
+.block1 {
+	display: inline-block;
+	width: 16%;
+}
+.block2 {
+    display: inline-block;
+	width: 16%;
+}
+.block3 {
+		display: inline-block;
+	width: 16%;
+}*/
+
+/*@media (max-width: 960px) {
+	.wrapper {
+		width: 95%;
+	}
+	.content {
+		width: 50%;
+	}
+    .slider {
+    	max-width: 100%;
+    	height: auto;
+    	width: auto;
+    }
+}*/
+
+/*.menu {
 	list-style: none;
 	font-weight: bold;
 	font-size: 18px;
@@ -57,28 +216,19 @@ footer {
 .menu__link:hover {
 	text-decoration: underline;
  /*   border-bottom: 2px solid #edbfff;
-    border-*/
+    border-
 }
-.menu__item .menu--inside {
+/*.menu__item .menu--inside {
 	display: none;
 }
 
 .menu__item:hover .menu--inside {
     display: block;
-}
-}
+}*/
 
 
-@media (max-width: 480px) {
-	header .
-	.menu__item:hover .menu--inside {
-    display: block;
-	border-radius: 10px;
-	border: 1px solid black;
-	background: black;
-	opacity: 0.6;
-}
-}
+
+
 
 
 

@@ -1,0 +1,41 @@
+.container {
+	max-width: 768px;
+	margin: 50px auto;
+	width: 100%;
+}
+
+.carousel {
+	margin: 10px 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.images {
+	width: 10000px;
+	position: relative;
+}
+
+.images li {
+	float: left;
+	list-style: none;
+	width: 650px;
+	padding: 10px 10px 10px 0;
+}
+
+.images li img {
+	display: block;
+}
+
+.left img, .right img {
+	width: 30px;
+	position: relative;
+}
+
+.left {
+	float: left;
+	margin-top: 170px;
+}
+.right {
+	float: right;
+	margin-top: -250px;
+}
